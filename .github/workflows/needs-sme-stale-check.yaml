@@ -14,7 +14,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  stale_needs-sme:
+  stale_needs-sme:.github/workflows/needs-sme-stale-check.yaml
     if: ${{ github.repository == 'github/docs' }}
     runs-on: ubuntu-latest
 
